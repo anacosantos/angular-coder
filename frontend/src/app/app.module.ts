@@ -9,6 +9,7 @@ import { HeaderComponent } from './components/template/header/header.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component'
+import { MatProgressBarModule} from '@angular/material/progress-bar'
 
 import {MatSidenavModule} from '@angular/material/sidenav'
 import {MatListModule} from'@angular/material/list'
@@ -26,7 +27,8 @@ import {MatListModule} from'@angular/material/list'
     BrowserAnimationsModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
