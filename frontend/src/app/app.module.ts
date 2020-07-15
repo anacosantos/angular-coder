@@ -12,14 +12,20 @@ import { NavComponent } from './components/template/nav/nav.component'
 import { MatProgressBarModule} from '@angular/material/progress-bar'
 
 import {MatSidenavModule} from '@angular/material/sidenav'
-import {MatListModule} from'@angular/material/list'
+import {MatCardModule} from '@angular/material/card'
+import {MatListModule} from'@angular/material/list';
+import { HomeComponent } from './views/home/home.component';
+import { ProductCrudComponent } from './views/product-crud/product-crud.component'
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent,
+    ProductCrudComponent
   ],
   imports: [
     AppRoutingModule,
@@ -28,7 +34,8 @@ import {MatListModule} from'@angular/material/list'
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
