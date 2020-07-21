@@ -1,3 +1,4 @@
+import { UserComponent } from './views/user/user.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
@@ -13,8 +14,11 @@ const routes: Routes = [{
   path:"products",
   component: ProductCrudComponent
 },{
-  path: "product/create",
+  path: "products/create",
   component: ProductCreateComponent
+},{
+  path: "user",
+  component: UserComponent
 }
 ];
 

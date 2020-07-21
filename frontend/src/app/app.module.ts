@@ -19,7 +19,8 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component'
-import {MatButtonModule} from '@angular/material/button'
+import {MatButtonModule} from '@angular/material/button';
+import { UserComponent } from './views/user/user.component'
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import {MatButtonModule} from '@angular/material/button'
     ProductCrudComponent,
     RedDirective,
     ForDirective,
-    ProductCreateComponent
+    ProductCreateComponent,
+    UserComponent
   ],
   imports: [
     AppRoutingModule,
