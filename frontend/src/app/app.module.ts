@@ -21,7 +21,9 @@ import { ForDirective } from './directives/for.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component'
 import {MatButtonModule} from '@angular/material/button';
 import { UserComponent } from './views/user/user.component'
-
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { TopComponent } from './components/template/top/top.component';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -34,7 +36,8 @@ import { UserComponent } from './views/user/user.component'
     RedDirective,
     ForDirective,
     ProductCreateComponent,
-    UserComponent
+    UserComponent,
+    TopComponent
   ],
   imports: [
     AppRoutingModule,
@@ -45,7 +48,9 @@ import { UserComponent } from './views/user/user.component'
     MatListModule,
     MatProgressBarModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSnackBarModule,
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
