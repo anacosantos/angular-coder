@@ -1,3 +1,4 @@
+import { NewUsersComponent } from './components/users/new-users/new-users.component';
 import { UserComponent } from './views/user/user.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { NgModule } from "@angular/core";
@@ -19,6 +20,9 @@ const routes: Routes = [{
 },{
   path: "user",
   component: UserComponent
+},{
+  path: "new-users",
+  component : NewUsersComponent
 }
 ];
 

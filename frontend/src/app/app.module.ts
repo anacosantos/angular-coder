@@ -23,7 +23,8 @@ import { TopComponent } from './components/template/top/top.component';
 import { HttpClientModule } from '@angular/common/http'
 import { FormsModule } from '@angular/forms'
 import { MatFormFieldModule } from '@angular/material/form-field'
-import { MatInputModule } from '@angular/material/input'
+import { MatInputModule } from '@angular/material/input';
+import { NewUsersComponent } from './components/users/new-users/new-users.component'
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { MatInputModule } from '@angular/material/input'
     ForDirective,
     ProductCreateComponent,
     UserComponent,
-    TopComponent
+    TopComponent,
+    NewUsersComponent
   ],
   imports: [
     AppRoutingModule,

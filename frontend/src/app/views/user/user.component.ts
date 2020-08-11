@@ -14,7 +14,7 @@ export class UserComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  navigateToProductCreate(): void{
-    this.router.navigate(['/user'])
+  navigatenewuser(): void{
+    this.router.navigate(['/new-users'])
   }
 }
