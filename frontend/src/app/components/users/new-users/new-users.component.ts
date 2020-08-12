@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./new-users.component.css']
 })
 export class NewUsersComponent implements OnInit {
+  router: any;
 
   constructor() { }
 
@@ -13,13 +14,14 @@ export class NewUsersComponent implements OnInit {
   }
 
   createUser(): void{
-    this.productService.create(this.product).subscribe(()=> {
-      this.productService.showMessage('Novo criado')
+    
       this.router.navigate(['/new-user'])
-    }) 
+    } 
    
-  }
+  
   cancel(): void{
+
     this.router.navigate(['/user'])
   }
 }
+

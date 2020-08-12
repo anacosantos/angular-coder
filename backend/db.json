@@ -29,6 +29,21 @@
       "name": "Notebook",
       "price": "3547.99",
       "id": 6
+    },
+    {
+      "name": "Fogão",
+      "price": "999.99",
+      "id": 7
+    },
+    {
+      "name": "Fogão",
+      "price": "9.99",
+      "id": 10
+    },
+    {
+      "name": "Fogão",
+      "price": "3547.99",
+      "id": 11
     }
   ]
 }
