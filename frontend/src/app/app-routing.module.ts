@@ -1,3 +1,4 @@
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { NewUsersComponent } from './components/users/new-users/new-users.component';
 import { UserComponent } from './views/user/user.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
@@ -23,6 +24,9 @@ const routes: Routes = [{
 },{
   path: "new-users",
   component : NewUsersComponent
+},{
+  path: "products/update/:id",
+  component : ProductUpdateComponent
 }
 ];
 
