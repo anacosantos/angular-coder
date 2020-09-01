@@ -21,7 +21,7 @@ export class ProductUpdateComponent implements OnInit {
 
   ngOnInit(): void {
     //pegar o valor do atributo ID da url.
-    //http://localhost:4200/products/update/:id/:nome
+    //http://localhost:4200/products/update/:id
     const id =  this.route.snapshot.paramMap.get('id')
 
     //buscar o produto via id no banco

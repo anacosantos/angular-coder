@@ -36,7 +36,14 @@ export class ProductService {
   }
 
   update(product: Product): Observable<Product> {
+    //url de acesso ao uodate do produto no backend
     const url = `${this.baseUrl}/${product.id}`
     return this.http.put<Product>(url, product)
+
+  }
+
+  delete(id: string): Observable<Product> {
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.delete<Product>(this.baseUrl)
   }
 }
