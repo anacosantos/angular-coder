@@ -3,14 +3,14 @@
     <form>
         <mat-form-field>
             <input matInput placeholder="Name"
-                [(ngModel)]="product.name" name="name" disabled>
+                [value]="product.name" name="name" disabled>
         </mat-form-field>
         <mat-form-field>
             <input matInput placeholder="Price ($)"
                 [value]="product.price" name="price" disabled>
         </mat-form-field>
     </form>
-    <button mat-raised-button (click)="DeleteProduct()" color="warn"> 
+    <button mat-raised-button (click)="deleteProduct()" color="warn"> 
         Save
     </button>
 

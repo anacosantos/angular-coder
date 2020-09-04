@@ -49,6 +49,11 @@
       "name": "Lápis",
       "price": "2.99",
       "id": 12
+    },
+    {
+      "name": "",
+      "price": null,
+      "id": 13
     }
   ]
 }
